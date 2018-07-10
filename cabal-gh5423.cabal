@@ -18,9 +18,9 @@ library
   hs-source-dirs:      src
   default-language:    Haskell2010
 
-test-suite cabal-sandbox-tests
+test-suite cabal-gh5423-tests
   type:                exitcode-stdio-1.0
   hs-source-dirs:      tests
   main-is:             Tests.hs
-  build-depends:       base, cabal-sandbox
+  build-depends:       base, cabal-gh5423
   default-language:    Haskell2010
